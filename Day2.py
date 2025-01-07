@@ -1,3 +1,4 @@
+#program that asks user's name and age, prints greeting message with name and birth year
 def main():
     # Get current year
     from datetime import datetime
