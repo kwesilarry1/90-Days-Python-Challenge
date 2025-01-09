@@ -1,5 +1,4 @@
-# A simple "countdown" program that counts down from 10 to 1 using a while loop.
-# Countdown program
+# A simple countdown program that counts down from 10 to 1 using a while loop.
 count = 10
 
 while count > 0:
