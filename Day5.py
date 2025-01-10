@@ -1,7 +1,7 @@
-def factorial(5):
-    """Calculate the factorial of a given number."""
+"""Calculating the factorial of a given number."""
+def factorial(n):
     if n < 0:
-        return "Factorial is not defined for negative numbers."
+        return
     elif n == 0 or n == 1:
         return 1
     else:
@@ -9,3 +9,6 @@ def factorial(5):
         for i in range(2, n + 1):
             result *= i
         return result
+number = int(input("Enter a number to calculate its factorial: "))
+result = factorial(number)
+print(f"The factorial of {number} is {result}.")
