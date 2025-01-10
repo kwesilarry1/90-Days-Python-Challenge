@@ -1,4 +1,4 @@
-def factorial(n):
+def factorial(5):
     """Calculate the factorial of a given number."""
     if n < 0:
         return "Factorial is not defined for negative numbers."
