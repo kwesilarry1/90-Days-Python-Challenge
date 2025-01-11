@@ -3,10 +3,11 @@ def calculate_sum_and_average(numbers):
     if not numbers:
         print("The list is empty.")
         return
-    
+    #calculating sum and average
     total_sum = sum(numbers)
     average = total_sum / len(numbers)
     
+    #Printing sum and average
     print(f"Sum: {total_sum}")
     print(f"Average: {average}")
 
