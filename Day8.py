@@ -13,7 +13,6 @@ def count_lines_and_words(file_path):
     except Exception as e:
         print(f"An error occurred: {e}")
 
-# Prompt user for file name
 file_path = input("Enter the file name: ")
 count_lines_and_words(file_path)
 
